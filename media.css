@@ -1,0 +1,54 @@
+@media (max-width:750px) {
+
+    .option ul {
+       display: none;
+    }
+    .hero{
+        display: flex;
+        
+        flex-direction:column ;
+    }
+    .project_box{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .prj-btn{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .tools-box{
+        display: flex;
+    }
+    .about_container{
+        display: block;
+    }
+    .about_img{
+        width: 150px;
+        height:auto;
+    
+    }
+    .hero_img{
+        width: 150px;
+        height: auto;
+    }
+
+
+}
+:root{
+    /* //font */
+    --main-font:"Trirong", serif;
+    --sec-font:"Yeseva One", serif;
+    --third-font: "Yrsa", serif;
+
+
+    /* color  */
+    --silver:#BBBBBB;
+    --dark:#222222;
+    --h-wieght:600;
+    --m-weight:400;
+    --s-weight:200;
+}

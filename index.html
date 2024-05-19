@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icons/Asset 2.png">
+    <title >mzl-Portfolio</title>
+
+    <!--font link for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    
+    <!-- Css links  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="animation.css">
+
+    <!-- font awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="container " id="container">
+        <nav  id="hero">
+            <div class="logo">
+                <h2>Manzil</h2>
+            </div>
+            <div class="option">
+                <ul>
+                    <li ><a  class="anchor" href="#hero_textbox">Home</a></li>
+                    <li ><a  class="anchor" href="#Projects">Projects</a></li>
+                    <li ><a  class="anchor" href="#About">About</a></li>
+                    <li ><a  class="anchor" href="#Contact">Contact</a></li>
+                </ul>
+                
+            </div>
+            <div class="mode">
+                <button onclick="modder()">Mode</button>
+            </div>
+            <div class="menu">
+                <i id="bars" class="fa-solid fa-bars"></i>
+                <i id="cross" class="fa-solid fa-xmark"></i>
+                
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="hero_textbox hidden" id="hero_textbox" >
+                <h1>Hi My name is Manjil </h1>
+                <h3>a Designer and your Personal Brand Builder</h3>
+                <div class="socials hidden">
+                    <ul>
+                        <li><a target="_blank" href="https://www.behance.net/manzeelaryal12"><i class="fa-brands fa-behance" ></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61553915974167"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/manzeelaryal/"><i class="fa-brands fa-instagram" ></i></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/manzeel-aryal-2471522a6/"><i class="fa-brands fa-linkedin" ></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero_img hidden" >
+                <img src="./img/home_pic.png" alt="">
+            </div>
+
+        </section>
+        <section class="projects" id="Projects">
+            <div class="heading_all hidden"><h2>Sample Projects</h2></div>
+            <div class="projects_container">
+                <div class="project_box hidden">
+                    <div class="prj-box "><img src="/img/project/poster sports.png" alt=""></div>
+                    <div class="prj-box "><img src="/img/project/Business-card mockup.jpg" alt=""></div>
+                    <div class="prj-box "><img src="/img/project/FURNITURE_MODERN.jpg" alt=""></div>
+                    <div class="prj-box "><img src="/img/project/chiya_Pasal1.png" alt=""></div>
+                    <div class="prj-box "><img src="/img/project/pizza-poster.jpg" alt=""></div>
+                </div>
+                <div class="prj-btn">
+                    <h4>For more Projects</h4>
+                    <button id="dribble" onclick="dribble()">View Dribble</button>
+                    <button id="behance" onclick="behance()">View Behance</button>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="tools" id="tools">
+            <div class="heading_all hidden"><h2>Tools</h2></div>
+            <div class="tools-box hidden">
+                <div class="toolss"><img src="img/icons/after effects.png" ></div>
+                <div class="toolss"><img src="img/icons/illustrator.png" ></div>
+                <div class="toolss"><img src="img/icons/photoshop.png" ></div>
+                <div class="toolss"><img src="img/icons/primere pro.png" ></div>
+            </div>
+        </section>
+        <section class="About" id="About">
+            <div class="heading_all hidden"><h2>About</h2></div>
+            <div class="about_container hidden">
+                <div class="about_img"><img src="img/about-img.png" ></div>
+                <div class="about_txt">
+                    <h3>Hi, I am Manjil from Nepal.
+                       <br> <span>I am Graphics Desinger.</span></h3>
+                       <h4><span>9+</span>Projects <br><span>4+</span>Satisfied Client </h4>
+                     
+                
+                </div>
+            </div>
+        </section>
+        <section class="Contact">
+            <div id="Contact" class="heading_all hidden">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact_container hidden">
+                <form action=""> 
+                    <h4> Smtp is out of service so Reach me through workspace0mzl@gmail.com</h4>
+                    <input type="Email" placeholder="Email">
+                    <input type="Name" placeholder="Name">
+                    <textarea name="contact_container" rows="6" id="textarea" placeholder="Enter your Message !!!"></textarea>
+                    <button type="submit" >Send <i class="fa-solid fa-paper-plane"></i></button>
+
+                </form>
+              
+            </div>
+        </section>
+        <section class="footer">
+          <span>  &copy; All copy right Reserved  </span>
+          <div class="foot_option">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            
+        </div>
+            <div class="socials">
+                <span><br>  Follow me in my social media handles</span>
+                <ul>
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61553915974167"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/manzeelaryal"><i class="fa-brands fa-instagram" ></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/manzeel-aryal-2471522a6/"><i class="fa-brands fa-linkedin" ></i></a></li>
+                    <li><a target="_blank" href="https://www.behance.net/manzeelaryal12"><i class="fa-brands fa-behance" ></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </div> 
+</body>
+<script src="index.js"></script>
+</html>
